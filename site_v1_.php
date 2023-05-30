@@ -4,7 +4,7 @@ $tokens = token_get_all($source);
 
 foreach ($tokens as $token) {
    if (is_string($token)) {
-       // простая однабуквенная лексема
+       // сложная многобуквенная лексема
        echo $token;
    } else {
        // массив с лексемой
